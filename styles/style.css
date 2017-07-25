@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela');
+  
+  
+h1{
+    
+    font-size: 70px;
+    background-color: white;
+    color: gray;
+    
+
+}
+
+html{
+    background:url("me.jpg");
+    height: 60px;
+}
+
+p{
+   font-size: 35px;
+   font-family: 'Gabriela', serif;
+}
+
+
+img {
+  width:40%;
+  border-radius:10%;
+  border-style:solid;
+  border-color:pink;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  
+}
+
+background{
+     height: 200px;
+     width: 20px;
+}
+
+
+.navbar {
+     list-style-type: none;
+     background-color: white;
+     text-align: center;
+     margin:0;
+     
+    
+ 
+     
+}
+
+.navbar a:link {
+    text-decoration: none;
+    text-align: center;
+    padding-left: 10%;
+    padding-right:10%;
+    font-size: 35px;
+     
+}
+
+
+.navbar li {
+    display:inline;
+    color: white;
+}
+
+.navbar a:hover {
+  color: pink;
+  background-color: gray;
+}
+
+.navbar a{
+    color: pink ;
+
+}
+
+footer{
+     display: block;
+     width: 94%;
+     position: absolute;
+     bottom: 0;
+     margin: 0 3%;
+     border-top: solid 2px pink;
+     clear: both;
+     color: pink;
+     
+     
+ }
+
+body{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    padding-bottom: 23em;
+    display: table;
+    margin: 0;
+    width: 100%;
+        background: linear-gradient(to bottom, #ffcccc 0%, #ffffff 100%);
+    font-family: 'Gabriela', serif;
+    
+}
+    
+
+
+
+/*.nav-item {*/
+/*  display: inline-block;*/
+
+/*  margin-right: 5px;*/
+/*}*/
+
+/* 
+4) Style nav -- inline, no bullet points, space between
+*/
+
+.nav-toggle {
+  display: none;
+/*   visibility: hidden; */
+}
+
+/* 
+5) Hide the button for desktop
+*/
+
+@media (max-width: 400px) {
+ 
+/* 
+6) Add media query for mobile styles
+*/
+ 
+  .nav-item {
+    display: block;
+  }
+  
+/* 
+7) Add mobile style for nav list -- items in a column
+*/
+  
+  .nav-toggle {
+    display: block;
+  }
+  
+/* 
+8) Display the button on mobile
+*/
+  
+  .mobile-nav-hidden {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

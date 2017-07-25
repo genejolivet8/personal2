@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+
+  <link href="styles/resume.css" rel="stylesheet" type="text/css">
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <script type="text/javascript" src="js/navbar.js"></script>
+
+
+</head>
+
+<body>
+   <header>
+        
+        <button  class="nav-toggle" id="nav-toggle"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+        
+        <ul class="navbar nav-items mobile-nav-hidden" id="nav-items">
+
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="resume.html">Resume</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+
+    </header>
+
+
+
+  <h1>Gene Jolivet</h1>
+  <h2>Chicago il</h2>
+
+  <p>Education:University of Chicago charter school Woodlawn Campus, class of 2019 (GPA:3.8)</p>
+
+  <a href="http://www.uchicagocharter.org/page.cfm?p=519"><img src="https://c1.staticflickr.com/9/8539/8694019126_a85c72aa7f_b.jpg" /></a>
+
+  <h3>Experience
+    <ul>
+      <li>Coderspace</li>
+    </ul>
+  </h3>
+
+  <h4>Activities
+    <ul>
+      <li>Cheerleading</li>
+      <li>Soccer</li>
+      <li>Volleyball</li>
+    </ul>
+  </h4>
+
+  <h5>Awards
+    <ul>
+      <li>perfect attendance </li>
+      <li>3.8 to 4.0 gpa award</li>
+      <li>Woodburning art competition(de la salle 2014)</li>
+    </ul>
+  </h5>
+<script>
+    var navToggle = document.getElementById('nav-toggle');
+
+//identify nav items
+
+var navItems = document.getElementById('nav-items');
+
+//button waiting to be clicked
+
+navToggle.addEventListener('click', function(){
+  
+  //the button will get clicked.
+// when the button gets clicked, the nav shows.
+  
+
+// when the button is clicked again, the nav will disappear.
+  
+  navItems.classList.toggle('mobile-nav-hidden');
+
+});
+ </script>
+</body>
+
+</html>

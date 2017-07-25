@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="javascript/navbar.js"></script>
+</head>
+
+<body>
+    <header>
+        
+        <button  class="nav-toggle" id="nav-toggle"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        
+        <ul class="navbar nav-items mobile-nav-hidden" id="nav-items">
+
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="resume.html">Resume</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+
+    </header>
+
+    <main>
+
+
+        <center>
+            
+            <h1>Gene Jolivet</h1>
+            
+        </center>
+        <center><img src="images/me2.jpg" ></img>
+        </center>
+
+    </main>
+
+    <footer>
+        <center>
+            <p>gene.jolivet8@gmail.com</p>
+        </center>
+        <a href=""></a>
+    </footer>
+
+<script>
+    var navToggle = document.getElementById('nav-toggle');
+
+//identify nav items
+
+var navItems = document.getElementById('nav-items');
+
+//button waiting to be clicked
+
+navToggle.addEventListener('click', function(){
+  
+  //the button will get clicked.
+// when the button gets clicked, the nav shows.
+  
+
+// when the button is clicked again, the nav will disappear.
+  
+  navItems.classList.toggle('mobile-nav-hidden');
+
+});
+ </script>
+</body>
+
+
+
+</html>

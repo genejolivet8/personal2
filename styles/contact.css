@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela');
+
+
+
+
+
+body {
+    color:gray;
+    background:pink;
+    margin: 0;
+    font-family: 'Gabriela', serif;
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+
+.navbar {
+     list-style-type: none;
+     background-color:white;
+     text-align: center;
+     margin:0;
+      
+     
+    
+ 
+     
+}
+
+.navbar a:link {
+    text-decoration: none;
+    text-align: center;
+    padding-left: 10%;
+    padding-right:10%;
+    font-size: 35px;
+}
+
+
+.navbar li {
+    display:inline;
+    color: white;
+}
+
+.navbar a:hover {
+  color: pink;
+  background-color: gray;
+}
+
+.navbar a{
+    color: pink;
+}
+.footer{
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  height:10%
+}
+
+
+/*.nav-item {*/
+/*  display: inline-block;*/
+
+/*  margin-right: 5px;*/
+/*}*/
+
+/* 
+4) Style nav -- inline, no bullet points, space between
+*/
+
+.nav-toggle {
+  display: none;
+/*   visibility: hidden; */
+}
+
+/* 
+5) Hide the button for desktop
+*/
+
+@media (max-width: 400px) {
+ 
+/* 
+6) Add media query for mobile styles
+*/
+ 
+  .nav-item {
+    display: block;
+  }
+  
+/* 
+7) Add mobile style for nav list -- items in a column
+*/
+  
+  .nav-toggle {
+    display: block;
+  }
+  
+/* 
+8) Display the button on mobile
+*/
+  
+  .mobile-nav-hidden {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
